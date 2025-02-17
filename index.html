@@ -1,16 +1,258 @@
 <!DOCTYPE html>
-<html lang = "en">
-     <head>
-          <meta charset = "UTF-8">
-          <title> Cursos de Alura </title>
-     </head>
-     <body>
-          <ul>
-               <li> Vagrant </li>
-               <li> Docker </li>
-               <li> Ansible </li>
-               <li> Integración continua </li>
-               <li> empresa syboli</li>
-          </ul>
-     </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+      <!-- Incluir Font Awesome para los iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="menu">
+                <img src="images/LOGO.svg"  alt="">
+                <a href="#" class="logo">Consejo Territorial de Plazas de Mercado</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="images/menu.svg" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-content">
+                <div class="header-txt">
+                    <h1>Consejo Territorial<br> de Plazas de Mercado</h1>
+                    <p>
+                        El Consejo Territorial de Plazas de Mercado del Suroccidente Colombiano (CTPM-SOC) promueve la colaboración entre entidades territoriales, 
+                        administraciones y sectores económicos, sociales y culturales, asesorando y generando información estratégica para fortalecer las plazas de mercado y su entorno.
+                    </p>
+                    <a href="#" class="btn">Regístrate aquí</a>
+                </div>
+                <div class="header-img">
+                    <img src="images/LOGO.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+            <div class="header-txt nosotros">
+                <h2>Nosotros</h2>
+            </div>
+            <div class="header-txt nosotros">
+                <h3>Misión</h3>
+                <img src="images/mision.svg" alt="">
+                <p>
+                    Ser ente articulador reconocido como líder y referente de conocimiento, cooperación y proyección, de las plazas de mercado en los territorios.  
+                </p>
+            </div>
+            <div class="header-txt nosotros">
+                <h3>Visión</h3>
+                <img src="images/vision.svg" alt="">
+                <p>
+                    Promover y orientar el desarrollo competitivo e innovador de las plazas de mercado, mediante la generación de alianzas, acompañamiento técnico y estrategias orientadas al fomento, promoción, mantenimiento y fortalecimiento de las plazas o galerías y su entorno.
+                </p>
+            </div>
+            <div class="header-txt nosotros">
+                <h3>Objetivos Estratégicos</h3>
+                <img src="images/objetivos.svg" alt="">
+                <p>
+                    ❖ Contribuir a la potenciación y consolidación del comercio en las plazas de mercado.<br>
+                    ❖ Ser un nodo comercial articulador de los territorios. <br>
+                    ❖ Brindar asesoría y acompañamiento a las administraciones de las galerías, para que sean más eficientes y eficaces. <br>
+                    ❖ Adelantar proyectos y programas de formación integral y socio empresarial a los arrendatarios o puestos de la plaza de mercado. <br>
+                    ❖ Fomentar la asociatividad y participación. <br>
+                    ❖ Impulsar el desarrollo tecnológico y modernización de las plazas de mercado. <br>
+                    ❖ Fomentar la cultura empresarial y la sana convivencia. <br>
+                    ❖ Ofertar alternativas transitorias para generación de ingresos a comerciantes de las plazas de mercado. <br>
+                    ❖ Desarrollar proyectos de infraestructura y mantenimiento de instalaciones y obras de plazas de mercado. <br>
+                    ❖ Realizar estudios, evaluación, formulación y aplicación de tendencias de regulación y contraste del mercado campesino y el de plazas de mercado. <br>
+                    ❖ Trabajar en la salubridad y medio ambiente de las plazas. <br>
+                    ❖ Promover desarrollos sostenibles y sustentables. <br>
+                    ❖ Ejercer funciones de veeduría en plazas de mercado. <br>
+                    ❖ Llevar demás programas y proyectos para el apoyo a unidades económicas, organizaciones, entes territoriales y plazas de mercado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="news-container">
+            <!--Columna 1-->
+                <div class="news-item">
+                    <div class="news-header">
+                        <img src="images/prueba-noticia.png" class="news-logo" alt="">
+                        <h2 class="news-title">Título de la noticia 1</h2>
+                    </div>
+                    <div class="news-meta">
+                        <p class="news-author">Autor: Juan Pérez</p>
+                        <p class="news-date">Fecha: 16 de Febrero, 2025</p>
+                    </div>
+                    <p class="news-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ullam eum soluta amet vel ex doloribus libero, cupiditate eius minus corrupti ad tempora quia sapiente iure? Ducimus magni ipsum laboriosam!
+                    </p>
+                    <img src="images/noticia.jpg" class="news-image" alt="">
+                    <div class="news-comments">
+                        <h3>Deja tu comentario</h3>
+                        <textarea placeholder="Escribe tu comentario aqui..." rows="4"></textarea>
+                        <button>Enviar comentario</button> 
+
+                    </div>
+
+                </div>
+                <!--Columna 2-->
+                <div class="news-item">
+                    <div class="news-header">
+                        <img src="images/prueba-noticia.png" class="news-logo" alt="">
+                        <h2 class="news-title">Título de la noticia 1</h2>
+                    </div>
+                    <div class="news-meta">
+                        <p class="news-author">Autor: Juan Pérez</p>
+                        <p class="news-date">Fecha: 16 de Febrero, 2025</p>
+                    </div>
+                    <p class="news-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ullam eum soluta amet vel ex doloribus libero, cupiditate eius minus corrupti ad tempora quia sapiente iure? Ducimus magni ipsum laboriosam!
+                    </p>
+                    <img src="images/noticia.jpg" class="news-image" alt="">
+                    <div class="news-comments">
+                        <h3>Deja tu comentario</h3>
+                        <textarea placeholder="Escribe tu comentario aqui..." rows="4"></textarea>
+                        <button>Enviar comentario</button> 
+
+                    </div>
+
+                </div>
+                <!--Columna 3-->
+                <div class="news-item">
+                    <div class="news-header">
+                        <img src="images/prueba-noticia.png" class="news-logo" alt="">
+                        <h2 class="news-title">Título de la noticia 1</h2>
+                    </div>
+                    <div class="news-meta">
+                        <p class="news-author">Autor: Juan Pérez</p>
+                        <p class="news-date">Fecha: 16 de Febrero, 2025</p>
+                    </div>
+                    <p class="news-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ullam eum soluta amet vel ex doloribus libero, cupiditate eius minus corrupti ad tempora quia sapiente iure? Ducimus magni ipsum laboriosam!
+                    </p>
+                    <img src="images/noticia.jpg" class="news-image" alt="">
+                    <div class="news-comments">
+                        <h3>Deja tu comentario</h3>
+                        <textarea placeholder="Escribe tu comentario aqui..." rows="4"></textarea>
+                        <button>Enviar comentario</button> 
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="registration-form">
+                <div class="form-container">
+                    <h1>Formulario de Registro</h1>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombres:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellidos:</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="celular">Número de Celular:</label>
+                            <input type="tel" id="celular" name="celular" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="entidad">Entidad que Representa:</label>
+                            <select id="entidad" name="entidad" required>
+                                <option value="alcandia">Alcaldía</option>
+                                <option value="galeria">Galería</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Galeria</h3>
+                    <ul>
+                        <li><a href="#">Pagina 1</a></li>
+                        <li><a href="#">Pagina 2</a></li>
+                        <li><a href="#">Pagina 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Marketing</h3>
+                    <ul>
+                        <li><a href="#">Pagina 1</a></li>
+                        <li><a href="#">Pagina 2</a></li>
+                        <li><a href="#">Pagina 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Estudios</h3>
+                    <ul>
+                        <li><a href="#">Pagina 1</a></li>
+                        <li><a href="#">Pagina 2</a></li>
+                        <li><a href="#">Pagina 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section follow-us">
+                    <h3>Siguenos</h3>
+                    <div class="social-buttons">
+                        <a href="#" class="social-button facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-button youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-button web"><i class="fas fa-globe"></i></a>
+                        <a href="#" class="social-button tiktok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-button whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="privacy-policy">
+                    <a href="#">Politicas de privacidad</a>
+                </div>
+                <div class="rights-reserved">
+                    <p>&copy; 2025 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
 </html>
